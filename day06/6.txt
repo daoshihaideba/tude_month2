@@ -1,0 +1,67 @@
+前情回顾
+
+1. 三次握手和四次挥手
+
+2. tcp通信流程
+服务端 ： socket()->bind()->listen()->accept()->recv/send->close()
+客户端 ： socket()------------------>connect()->send/recv->close()
+
+3. tcp传输细节
+   recv会返回空
+   send报错  -》 管道破裂
+   收发缓冲
+
+
+在客户端有一些数据
+data = [
+  "张三  18   177",
+  "李四  19   180",
+  "王五  120  183"
+]
+从客户端向服务端发送这些数据,服务端每条数据分别打印
+
+
+练习
+利用tcp套接字写一个服务端http程序，将一张图片显示到浏览器中
+
+即启动程序后浏览器访问 "127.0.0.1:8888"就可以展示出这个图片
+并且浏览器可以重复的访问
+
+响应头 ： Content-Type:image/jpeg
+
+
+
+完成一个简易的小“网站”，根据用户的访问提供对应的网页给浏览器
+网页 ： static
+
+1. 类完成
+2. tcp 服务端
+   网络模型   具体干事
+
+3. 面向对象 ： 以对象为核心
+
+   实例化对象 --》 对象调用方法 完成具体事务
+
+cookie:
+    if  elif  else
+    while  else
+    for  else
+    try   except  else  finally
+    with
+
+
+今日内容 ：
+1. tcp粘包问题  tcp与udp对比
+2. tcp协议首部信息
+3. http协议   格式
+4. httpserver
+
+作业： 1. tcp与udp编程梳理
+      2. http协议的格式
+      3. httpserver 代码 自己写一下
+      4. 学生管理系统
+
+
+
+
+

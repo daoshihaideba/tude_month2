@@ -1,0 +1,72 @@
+前情回顾
+
+1. Linux操作系统
+   os 操作系统作用
+
+   Linux 应用 ： 服务器        桌面  智能设备
+   Linux 特点 ： 开源  稳定 网络功能 安全
+
+2. Linux组成机构
+   内核  文件系统   命令   桌面应用
+
+3. 文件系统
+   组织结构 ： 树状结构
+   Linux根目录下重要文件夹作用 ： /etc   /home
+   表达一个文件位置： 绝对路径  相对路径
+
+4. Linux命令 （shell命令）
+
+   ls   cd   mv   cp   mkdir   rm   touch
+   cat   grep   find   wc
+   zip   tar
+
+  tab自动补全   通配符   管道
+
+随堂训练
+1. 使用输出重定向完成 一个文件（my.log），内容格式如下：
+
+[当前日期]
+用户: [你的登录用户名]
+空行
+[ext4格式磁盘的使用情况]
+
+date > my.log
+echo -n "用户：" >> my.log
+whoami >> my.log
+echo "" >> my.log
+df -Th | grep "ext4" >> my.log
+
+
+
+2. 使用vi编写一个python小函数,求20以内奇数的累乘结果
+   mul.py
+
+cookie: 网卡重启
+
+sudo service network-manager stop
+
+sudo rm /var/lib/NetworkManager/NetworkManager.state
+
+sudo service network-manager start
+
+
+安装本地安装包：
+
+sudo dpkg -i  youdao-dict_6.0.0-ubuntu-amd64.deb
+sudo apt --fix-broken  install  (解决依赖关系)
+sudo dpkg -P youdao-dict （卸载软件只需要软件名）
+
+服务器IP
+121.5.90.43
+
+今日内容：
+1. 基础命令
+2. 服务器常规操作 (重点)
+   vi  apt   pip3    ssh
+
+作业：
+1. 今天的命令2遍
+2. Linux知识点总结
+
+
+

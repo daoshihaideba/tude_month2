@@ -1,0 +1,171 @@
+基础命令:
+  788  git
+  789  git config --global user.name Levi
+  790  git config --global user.email lvze@tedu.cn
+  791  git config --list
+  793  cd month02
+  794  ls
+  795  mkdir project
+  796  ls
+  797  cd project/
+  798  ls
+  799  git init
+  800  ls
+  801  ls -a
+  805  git status
+  806  cd ..
+  807  git status
+  808  ls
+  809  cd project/
+  810  ls
+  811  cd goddess/
+  812  git status
+  813  cd ..
+  814  git status
+  815  ls
+  816  git add .
+  817  git status
+  818  ls
+  819  git rm --cached yuan.jpeg 
+  820  ls
+  821  git status
+  822  ls
+  823  git commit goddess -m "第一次提交一个文件夹"
+  824  git status
+  825  git commit -m "提交若干文件"
+  826  git status
+  827  git add *
+  828  git commit -m "add a image"
+  829  git status;
+  830  ls
+  831  git rm demo01.py 
+  832  git mv render.html goddess
+  833  ls
+  834  git status
+  835  git commit -m "rm & mv"
+  836  ls
+  837  rm hello.py 
+  838  ls
+  839  git checkout -- hello.py README.md
+
+版本控制
+  841  git log
+  842  ls
+  843  git reset --hard HEAD^
+  844  ls
+  845  git reset --hard 537c116
+  846  ls
+  847  git log
+  848  git reflog
+  849  git reset --hard be87354
+  850  ls
+  851  git log
+  852  ls
+  853  git tag v1.0  -m "最新版本标签"
+  854  git tag
+  855  git tag v0.9 537c116  -m "老版本标签"
+  856  git tag
+  857  git reset --hard v0.9
+  858  ls
+  859  git reset --hard v1.0
+  860  ls
+  861  git tag
+  862  git show v0.9
+  863  git tag -d v0.9
+  864  git log
+
+分支管理
+  865  git status
+  866  git branch
+  867  git branch levi_dev
+  868  git branch
+  869  git checkout levi_dev 
+  870  git branch
+  871  git log
+  872  ls
+  873  git checkout master
+  874  ls
+  875  git checkout -b joy_dev
+  876  git branch
+  877  ls
+  878  git status
+  879  ls
+  880  git checkout master
+  881  ls
+  882  ls -a
+  883  ls
+  884  git merge joy_dev 
+  885  ls
+  886  1
+  887  git branch
+  888  git checkout levi_dev 
+  889  ls
+  890  git status
+  891  git checkout master
+  892  git merge levi_dev 
+  893  git checkout joy_dev 
+  894  git checkout master
+  895  git merge joy_dev 
+  896  git branch -d levi_dev
+
+
+远程操作 :
+  903  ls
+  904  git clone https://gitee.com/TheAlgorithms/Python.git
+  905  ls
+  906  cd Python/
+  907  ls
+  908  ls -a
+  909  git pull
+  910  cd 
+  911  ssh tarena@121.5.90.43
+  912  cd .ssh
+  913  ls
+  914  cd 
+  915  ssh-keygen
+  916  cd .ssh
+  917  ls
+  918  cat id_rsa.pub 
+  919  长度
+  920  cd
+  921  cd month0
+  922  cd month02
+  923  ls
+  924  git clone git@gitee.com:levi0321/aid_2202.git
+  925  ls
+  926  cd aid_2202/
+  927  ls
+  928  ls -a
+  929  git status
+  930  ls
+  931  cd ..
+  932  ls
+  933  cp day03/*  aid_2202/
+  934  cd aid_2202/
+  935  ls
+  936  git add .
+  937  git commit -m 'init'
+  938  git push
+  939  git branch
+  940  git branch tom_dev
+  941  ls
+  942  git checkout tom_dev 
+  943  git branch
+  944  git push -u origin tom_dev
+  945  cd ..
+  946  ls
+  947  rm aid_2202/ Python/ -rf
+  948  ls
+  949  cd project/
+  950  git remote add origin git@gitee.com:levi0321/aid_2202.git
+  951  ls
+  952  git push -u origin master
+  953  git reset --hard HEAD^
+  954  git push
+  955  git push --force origin
+  956  git  push
+  957  git pull
+  958  git push
+  959  cd ../day17
+  960  ls
+  961  history 100 >> git课上演示.txt 

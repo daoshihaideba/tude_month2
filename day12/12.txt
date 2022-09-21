@@ -1,0 +1,92 @@
+前情回顾
+
+1. 数据库基本概念
+   数据库 DB     数据库管理系统 DBMS
+   表    字段    记录   数据元素
+   关系型数据库
+
+2. MySQL
+   开源   中型    跨平台    支持的编程语言多
+   启动   sudo service mysql start
+   连接   mysql -u root -p
+
+3. SQL(结构化查询语言)
+
+   数据库： show  databases;
+           create database  [db] character set utf8;
+           use [db];
+
+   数据表： 确定存什么 -》 字段名 -》 字段数据类型和约束
+
+          数据类型 ： 数字  tinyint  smallint  int  float  bit
+                    字符串 char  varchar  enum()  text
+          约束  not null   default  comment   unsigned
+                primary key  auto_increment
+
+          create table  [tb]  (字段名 类型 约束,....);
+          show tables;
+          show create table [tb];
+          desc [tb];
+
+
+4. 数据操作    增删改  查
+
+   insert into [tb] (col,...) values (val,...);
+
+   select col1,col2 from [tb]
+
+查询练习 使用books表完成
+1. 查找30多元的图书
+select * from books  where price >=30 and price < 40;
+
+２．查找人民教育出版社出版的图书　
+select * from books where press="人民教育出版社";
+
+３．查找老舍写的，中国文学出版社出版的图书　
+select * from books
+where author="老舍" and press="中国文学出版社";
+
+４．查找备注不为空的图书
+select * from books where comment is not null ;
+
+５．查找价格超过60元的图书，只看书名和价格
+select bname,price from books where price>60;
+
+６．查找鲁迅写的或者茅盾写的图书
+select * from books where author ="鲁迅" or author="茅盾";
+select * from books where author in ("鲁迅","茅盾");
+
+cookie : 补充时间函数
+
+date() : 提取日期
+select athlete, date(r_time) from marathon;
+select athlete, date(r_time) from marathon
+where date(r_time) < "2022-04-05";
+
+datediff() : 获取日期差
+select datediff("2022-04-05","2022-04-01");
+
+
+练习 使用book表
+1. 将呐喊的价格修改为45元
+2. 增加一个字段出版时间 类型为 date 放在价格后面
+3. 修改所有老舍的作品出版时间为 2018-10-1
+4. 修改所有中国文学出版社出版的但是不是老舍的作品出版时间为 2020-1-1
+5. 修改所有出版时间为Null的图书 出版时间为 2019-10-1
+6. 所有鲁迅的图书价格增加5元
+7. 删除所有价格超过70元或者不到40元的图书
+
+
+今日内容：
+1. 数据基础操作  where  修改  删除
+2. 基础补充   alter 时间
+3. 查询操作 高级查询
+
+作业： 1. 语句熟悉两边
+      2. 今天练习自己独立完成
+
+
+
+
+
+

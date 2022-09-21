@@ -1,0 +1,38 @@
+MySQL操作软件
+navicat
+https://www.navicat.com.cn/
+
+workbench
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+今日内容：
+1. 数据库基本概念
+   数据库  数据库管理系统   关系型数据
+   数据表   字段  数据元素
+
+2. MySQL
+   MySQL特点
+   mysql安装   服务启动    连接MySQL
+
+3. SQL语句
+   数据库语句
+   数据表语句 ：  数据类型   约束
+   插入语句
+
+作业： 1 语句熟练两遍
+
+      2. 创建一个数据库 exercise 使用utf8
+         在该数据库下创建表 books 字段如下
+          id   bname  author  price  press(出版社)  comment
+
+         向其中插入数据若干  >= 6条
+            参考 ： 老舍  沈从文  鲁迅  冰心  ....
+            出版社 ： 中国文学  人民教育   机械工业
+            价格 ：  30-120
+
+
+
+
+
+
+

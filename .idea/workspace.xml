@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="929168ae-5cd3-4fb8-8b9b-3eea3863835d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/day18/dict" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="26imAZ3jsbnNhPQ6OYm6jn7kb1p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day16" />
+      <recent name="$PROJECT_DIR$/day12" />
+      <recent name="$PROJECT_DIR$/day10" />
+      <recent name="$PROJECT_DIR$/day04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dict_server">
+    <configuration name="01_regex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="month02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day18" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day18/01_regex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_save_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="month02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day16/05_save_image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="month02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dict_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="month02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day18/dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day18/dict/dict_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dict_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="month02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day18/dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day18/dict/dict_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dict_server" />
+        <item itemvalue="Python.01_regex" />
+        <item itemvalue="Python.dict_client" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.05_save_image" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="929168ae-5cd3-4fb8-8b9b-3eea3863835d" name="Default Changelist" comment="" />
+      <created>1647914637911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647914637911</updated>
+    </task>
+    <task id="LOCAL-00001" summary="提交 readme">
+      <created>1649671014995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649671014995</updated>
+    </task>
+    <task id="LOCAL-00002" summary="joy work">
+      <created>1649731204055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649731204055</updated>
+    </task>
+    <task id="LOCAL-00003" summary="levi work">
+      <created>1649731931713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649731931713</updated>
+    </task>
+    <task id="LOCAL-00004" summary="readme change">
+      <created>1649732397365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649732397365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme change joy">
+      <created>1649732497649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649732497649</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge branch 'joy_dev'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <created>1649732647903</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649732647903</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'joy_dev'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <created>1649744370172</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649744370172</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge branch 'joy_dev'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <created>1649746467133</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649746467133</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交 readme" />
+    <MESSAGE value="joy work" />
+    <MESSAGE value="levi work" />
+    <MESSAGE value="readme change" />
+    <MESSAGE value="readme change joy" />
+    <MESSAGE value="Merge branch 'joy_dev'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'joy_dev'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="406" y="119" width="524" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1648547367218">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state x="406" y="119" width="524" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1213.693@67.27.1213.693" timestamp="1648547367218" />
+    <state x="276" y="48" width="835" height="561" key="CommitChangelistDialog2" timestamp="1649746467070">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state x="276" y="48" width="835" height="561" key="CommitChangelistDialog2/67.27.1213.693@67.27.1213.693" timestamp="1649746467070" />
+    <state width="1187" height="300" key="GridCell.Tab.0.bottom" timestamp="1649841344958">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="300" key="GridCell.Tab.0.bottom/67.27.1213.693@67.27.1213.693" timestamp="1649841344958" />
+    <state width="1187" height="300" key="GridCell.Tab.0.center" timestamp="1649841344957">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="300" key="GridCell.Tab.0.center/67.27.1213.693@67.27.1213.693" timestamp="1649841344957" />
+    <state width="1187" height="300" key="GridCell.Tab.0.left" timestamp="1649841344956">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="300" key="GridCell.Tab.0.left/67.27.1213.693@67.27.1213.693" timestamp="1649841344956" />
+    <state width="1187" height="300" key="GridCell.Tab.0.right" timestamp="1649841344958">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="300" key="GridCell.Tab.0.right/67.27.1213.693@67.27.1213.693" timestamp="1649841344958" />
+    <state width="1187" height="387" key="GridCell.Tab.1.bottom" timestamp="1649399504598">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="387" key="GridCell.Tab.1.bottom/67.27.1213.693@67.27.1213.693" timestamp="1649399504598" />
+    <state width="1187" height="387" key="GridCell.Tab.1.center" timestamp="1649399504596">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="387" key="GridCell.Tab.1.center/67.27.1213.693@67.27.1213.693" timestamp="1649399504596" />
+    <state width="1187" height="387" key="GridCell.Tab.1.left" timestamp="1649399504596">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="387" key="GridCell.Tab.1.left/67.27.1213.693@67.27.1213.693" timestamp="1649399504596" />
+    <state width="1187" height="387" key="GridCell.Tab.1.right" timestamp="1649399504597">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state width="1187" height="387" key="GridCell.Tab.1.right/67.27.1213.693@67.27.1213.693" timestamp="1649399504597" />
+    <state x="192" y="27" width="952" height="693" key="SettingsEditor" timestamp="1649725968989">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state x="192" y="27" width="952" height="693" key="SettingsEditor/67.27.1213.693@67.27.1213.693" timestamp="1649725968989" />
+    <state x="67" y="27" width="1203" height="693" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1648884938125">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state x="67" y="27" width="1203" height="693" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1213.693@67.27.1213.693" timestamp="1648884938125" />
+    <state x="313" y="41" width="719" height="678" key="search.everywhere.popup" timestamp="1648801672124">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state x="313" y="41" width="719" height="678" key="search.everywhere.popup/67.27.1213.693@67.27.1213.693" timestamp="1648801672124" />
+    <state x="369" y="283" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1647999967770">
+      <screen x="67" y="27" width="1213" height="693" />
+    </state>
+    <state x="369" y="283" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1213.693@67.27.1213.693" timestamp="1647999967770" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day05/exercise01_client.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day05/02_socket_server_test.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day06/01_tcp_stick_send.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day09/05_thread_lock.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day09/05_thread_lock.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

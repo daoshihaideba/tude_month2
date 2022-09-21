@@ -1,0 +1,141 @@
+权限管理和系统内容显示命令
+
+  561  cd  /
+  562  ls
+  563  touch file.txt
+  564  sudo touch file.txt
+  565  ls
+  566  rm file.txt 
+  567  ls
+  568  sudo rm file.txt 
+  569  ls
+  570  cd 
+  571  cd month02/day02
+  572  ls -l
+  573  chmod  a-w  2.txt
+  574  ls -l
+  575  chmod u+w 2.txt 
+  576  ls -l
+  577  chmod a=rw- 2.txt
+  578  ls -l
+  579  chmod a=--- 2.txt
+  580  ls -l
+  581  cat 2.txt 
+  582  chmod a=rw- 2.txt
+  583  echo "hello world"
+  584  echo -n "hello world"
+  585  ls
+  586  date
+  587  whoami
+  588  df -Th
+  589  history 20
+  590  cd
+  591  ls
+  592  cd month01
+  593  ls
+  594  ls
+  595  cd house_information_manager_system/
+  596  ls
+  597  tree
+  598  cd 
+  599  cd month02/day02
+  600  ls
+  601  ls -l
+  602  ls -l > file.txt
+  603  ls
+  604  date > file.txt 
+  605  ls -l >> file.txt 
+  606  history 100 >> 课上命令演示.txt
+
+  624  python3 main.py 
+  625  cd 
+  626  ls
+  627  ln -s /home/tarena/month02/day02/main.py  main
+  628  ls
+  629  python3 main
+  630  cat main 
+  631  cd -
+  632  ls
+  625  cd 
+  626  ls
+  627  ln -s /home/tarena/month02/day02/main.py  main
+  628  ls
+  629  python3 main
+  630  cat main 
+  631  cd -
+  632  ls
+  633  history 10 >> 课上命令演示.txt 
+  634  vi hello.py
+  635  ls
+  636  vi hello.py 
+  637  vi mul.py
+  638  python3 mul.py 
+  639  ls
+  640  vi hello.py 
+  641  cd month02/day02
+  642  ls
+  643  vi hello.py 
+  644  cd month02/day02
+  645  vi hello.py 
+  646  ls
+  647  ls -a
+  648  rm .hello.py.swp 
+  649  ls
+  650  vi hello.py 
+  651  ls
+  652  ls -a
+  653  rm .hello.py.swp 
+  654  vi hello.py 
+  655  ifconfig
+  656  sudo apt update
+  657  sudo apt install sl
+  658  sl
+  659  sudo apt upgrade sl
+  660  sudo apt remove --purge sl
+  661  sl
+  662  ls
+  663  las
+  664  ls
+  665  sudo dpkg -i youdao-dict_6.0.0-ubuntu-amd64.deb 
+  666  sudo apt --fix-broken install
+  667  ls
+  668  sudo dpkg -P youdao-dict
+  669  pip3 list
+  670  sudo pip3 install pypinyin
+  671  ls
+  672  python3 pinyin.py 
+  673  pip3 show pypinyin
+  674  sudo pip3 install --upgrade  pypinyin
+  675  sudo pip3 uninstall pypinyin
+  676  pip3    freeze > requirements.txt
+  677  ls
+  678  pip3 freeze > requirements.txt
+  679  sudo pip3 uninstall pypinyin
+  680  ps -e
+  681  ps   -e | grep  "ssh"
+  682  sudo service ssh stop
+  683  ps   -e | grep  "ssh"
+  684  sudo service ssh start
+  685  ps   -e | grep  "ssh"
+  686  ps -e | grep "ssh"
+  687  cd 
+  688  ifconfig
+  689  ssh tarena@172.40.91.122
+  690  ssh tarena@121.5.90.43
+  691  ls
+  692  rm main 
+  693  ls
+  694  cd month01
+  695  ls
+  696  cd day17
+  697  ls
+  698  cd ../day16
+  699  ls
+  700  cd ..
+  701  ls
+  702  scp  -r  day18 tarena@121.5.90.43:.
+  703  ssh tarena@121.5.90.43
+  704  cd 
+  705  cd month02/day02
+  706  ls
+  707  history 300 >> 课上命令演示.txt 

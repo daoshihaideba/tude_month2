@@ -1,0 +1,176 @@
+第一组基础命令 ：
+  388  ls -l
+  390  ls
+  391  ls -a
+  392  ls -l month02
+  393  pwd
+  394  ls
+  395  cd month02
+  398  ls
+  399  cd 下载
+  400  cd ../文档
+  401  cd /home/tarena/下载
+  402  cd -
+  403  cd
+  404  mkdir  dir1  dir2
+  405  ls
+  406  mkdir dir1/abc
+  407  ls dir1
+  408  touch file1.txt file2.txt
+  409  ls
+  410  rm file1.txt file2.txt 
+  411  ls
+  412  rm dir1
+  413  rm -r dir1 dir2 
+  414  ls
+  415  rm  xxxxx
+  416  ls -a
+  417  rm .文本文件.txt 
+  418  ls -l
+  419  ls -a
+  420  ls
+  421  cd month02
+  422  ls
+  423  cd day01
+  424  ls
+  425  mkdir dir1
+  426  ls
+  427  cp 1.txt dir1
+  428  ls dir1
+  429  ls
+  430  touch file.txt
+  431  ls
+  432  mv file.txt  dir1
+  433  ls
+  434  ls dir1
+  435  ls
+  436  touch a.py  b.py  c.py
+  437  ls
+  438  cp a.py b.py c.py dir1
+  439  ls dir1
+  440  ls
+  441  mv a.py b.py dir1
+  442  ls
+  443  mkdir dir
+  444  ls
+  445  cp dir1 dir
+  446  cp -r dir1 dir
+  447  ls
+  448  mv dir1 dir
+  449  ls
+  450  mv dir1 ..
+  451  ls ..
+  452  ls
+  453  cp -r ../dir1 .
+  454  ls
+  455  cp c.py hello.py
+  456  ls
+  457  mv c.py  a.py
+  458  ls
+  459  touch Tarena_7748745628_tu.log
+  460  ls
+  461  rm Tarena_7748745628_tu.log 
+  462  ls
+  463  rm -r dir1
+  464  touch 322541334545234.py
+  465  ls
+  466  rm 322541334545234.py 
+  467  ls
+  468  touch file_a.txt file_b.py file_c.txt file_112.txt
+  469  ls
+  470  rm file_*.txt
+  471  ls
+  472  touch c.py
+  473  ls
+  474  rm ?.py
+  475  ls
+  476  mv *.py dir
+  477  ls
+  478  cd ..
+  479  lls
+  480  ls
+  481  mkdir dir2 dir3
+  482  ls
+  483  rm -r dir?
+  484  ls
+  485  cd -
+  486  ls
+  487  history 100 > 课上命令演示.txt
+
+
+第二组  文件信息查询显示命令
+  488  ls
+  489  cat 1.txt
+  490  head 1.txt
+  491  head -5 1.txt
+  492  tail -8 1.txt
+  493  ls
+  494  grep "Hello" hello.py 
+  495  grep -i "Hello" hello.py 
+  496  grep -n "Hello" hello.py 
+  497  grep  Hello world hello.py 
+  498  grep  "Hello World" hello.py 
+  499  grep  Hello World hello.py 
+  500  cd 
+  501  ls
+  502  cd month01
+  503  ls
+  504  find . -name demo09.py
+  505  cd -
+  506  cd month02/day01/
+  507  ls
+  508  wc hello.py 
+  509  wc -l hello.py 
+  510  wc -w hello.py 
+  511  wc -c hello.py 
+  512  ls
+  513  ls /usr/bin/
+  514  ls /usr/bin | grep "python3"
+  515  ls /etc
+  516  ls /etc | wc -w
+  517  ls /etc | wc -l
+  518  ls /etc | wc -w
+  519  ls | wc -w
+  520  ls
+  521  history 60 >> 课上命令演示.txt 
+
+第三组 压缩解压
+  522  cd /etc/mysql/
+  523  ls
+  524  cat mysql.cnf 
+  525  ls
+  526  cd mysql.conf.d/
+  527  ls
+  528  cat mysqld.cnf 
+  529  grep "port" mysqld.cnf 
+  530  cd 
+  531  cd month02/day01/
+  532  ls
+  533  zip file.zip  *.txt
+  534  ls
+  535  zip -r dir.zip dir
+  536  ls
+  537  unzip file.zip 
+  538  ls
+  539  unzip -d .. dir.zip 
+  540  man tar
+  541  ls -l
+  542  ls -a
+  543  ls -l -a
+  544  ls -la
+  545  ls
+  546  tar -cjf file.tar.bz2 *.txt
+  547  ls
+  548  tar -czf file.tar.gz *.txt
+  549  ls
+  550  l
+  551  ls
+  552  tar -xvf file.tar.gz 
+  553  tar -xvf file.tar.gz -C ..
+  554  ls ..
+  555  ls
+  556  rm *.zip file*
+  557  ls
+  558  rm -r dir
+  559  ls
+  560  history 50 >> 课上命令演示.txt 

@@ -1,0 +1,5 @@
+print("Hello world")
+print("Hello world")
+print("Hello world")
+print("你好")
+print("哈哈")

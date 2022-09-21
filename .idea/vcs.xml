@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aid_2202" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day17/dict" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day18/dict" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dict" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project" vcs="Git" />
+  </component>
+</project>

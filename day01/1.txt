@@ -1,0 +1,25 @@
+随堂练习
+
+1.使用绝对路径表达以下 主目录中month01下的day03中的homework.txt文件
+/home/tarena/month01/day03/homework.txt
+
+2.使用相对路径 在主目录的下载文件夹下
+找到主目录中month01下的day03中的homework.txt文件
+../month01/day03/homework.txt
+
+3. 在下载目录下通过一个cd 命令 直接进入到文档文件夹中
+   cd  ../文档
+   cd  /home/tarena/文档
+
+4. 统计 /etc 下有多少个子文件
+   ls /etc | wc -w
+
+今日总结
+1. 什么是后端
+2. Linux操作系统基本认知
+3. 文件系统结构  绝对路径 相对路径
+4. 命令
+
+作业： 1. 今日命令练习2遍
+      2. 函数和类
+

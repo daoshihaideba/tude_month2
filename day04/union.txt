@@ -1,0 +1,168 @@
+随堂练习
+
+1.使用绝对路径表达以下 主目录中month01下的day03中的homework.txt文件
+/home/tarena/month01/day03/homework.txt
+
+2.使用相对路径 在主目录的下载文件夹下
+找到主目录中month01下的day03中的homework.txt文件
+../month01/day03/homework.txt
+
+3. 在下载目录下通过一个cd 命令 直接进入到文档文件夹中
+   cd  ../文档
+   cd  /home/tarena/文档
+
+4. 统计 /etc 下有多少个子文件
+   ls /etc | wc -w
+
+今日总结
+1. 什么是后端
+2. Linux操作系统基本认知
+3. 文件系统结构  绝对路径 相对路径
+4. 命令
+
+作业： 1. 今日命令练习2遍
+      2. 函数和类
+
+前情回顾
+
+1. Linux操作系统
+   os 操作系统作用
+
+   Linux 应用 ： 服务器        桌面  智能设备
+   Linux 特点 ： 开源  稳定 网络功能 安全
+
+2. Linux组成机构
+   内核  文件系统   命令   桌面应用
+
+3. 文件系统
+   组织结构 ： 树状结构
+   Linux根目录下重要文件夹作用 ： /etc   /home
+   表达一个文件位置： 绝对路径  相对路径
+
+4. Linux命令 （shell命令）
+
+   ls   cd   mv   cp   mkdir   rm   touch
+   cat   grep   find   wc
+   zip   tar
+
+  tab自动补全   通配符   管道
+
+随堂训练
+1. 使用输出重定向完成 一个文件（my.log），内容格式如下：
+
+[当前日期]
+用户: [你的登录用户名]
+空行
+[ext4格式磁盘的使用情况]
+
+date > my.log
+echo -n "用户：" >> my.log
+whoami >> my.log
+echo "" >> my.log
+df -Th | grep "ext4" >> my.log
+
+
+
+2. 使用vi编写一个python小函数,求20以内奇数的累乘结果
+   mul.py
+
+cookie: 网卡重启
+
+sudo service network-manager stop
+
+sudo rm /var/lib/NetworkManager/NetworkManager.state
+
+sudo service network-manager start
+
+
+安装本地安装包：
+
+sudo dpkg -i  youdao-dict_6.0.0-ubuntu-amd64.deb
+sudo apt --fix-broken  install  (解决依赖关系)
+sudo dpkg -P youdao-dict （卸载软件只需要软件名）
+
+服务器IP
+121.5.90.43
+
+今日内容：
+1. 基础命令
+2. 服务器常规操作 (重点)
+   vi  apt   pip3    ssh
+
+作业：
+1. 今天的命令2遍
+2. Linux知识点总结
+
+
+
+Linux 操作系统总结
+
+1. 理论概念
+   操作系统的职责
+   Linux操作系统介绍
+        特点 ： 开源  稳定  跨平台  功能强大   多用户
+        使用场景 ： 服务器    智能化小型设备    桌面系统
+        组成结构 ： 内核  文件系统  命令   桌面应用
+
+2. 文件系统
+   Linux文件文件系统结构  ：　树形结构　
+   文件系统中　路径表达　：　绝对路径　　相对路径　
+
+3. 基础命令　（重点）
+　　文件和文件夹操作　　
+　　查看文件信息查找信息　
+　　压缩解压　
+　　显示打印
+　　权限管理　　
+
+4. 服务器常用操作
+　　ｖｉ编辑器（修改文本）
+　　软件安装　：　apt  install    apt remove
+   pip3工具使用 : pip3 install
+   ssh远程访问 ： ssh   scp
+   终端执行代码
+
+可以熟练的基于Linux操作系统完成开发工作
+
+
+随堂练习
+1. 使用dict.txt单词本完成
+   编写一行函数，参数传入一个单词，函数执行后返回这个单词
+   对应的哪一行内容
+
+   单词本特点： 每个单词占一行
+              单词与解释之间有若干空格
+              单词按照从小到达排列
+
+2. 编写一个函数 copy,参数传入一个文件（可以带路径），执行函数
+将这个文件复制到当前程序运行的目录下
+
+文件复制本质 ：  从一个文件中读取数据，将其原样的写入到另一个文件
+
+def copy(filename):
+    pass
+
+copy("/home/tarema/下载/abc.py")
+
+3. 编写一个程序，循环的向一个文件（my.log）中写入如下内容:　
+　　1. Thu Mar 24 17:32:44 2022
+　　2. Thu Mar 24 17:32:46 2022
+　　3. Thu Mar 24 17:32:48 2022
+　　4. Thu Mar 24 17:34:09 2022
+　　5. Thu Mar 24 17:34:11 2022
+   每隔２秒写入一行,每行内容写入后需要实时显示出来　
+   当程序结束后,如果重新启动，会继续往下写，并且序号能够衔接
+提示：　import time
+       time.ctime()  获取当前时间
+       time.sleep(2) 暂停执行２秒
+
+
+今日总结
+1. 文件读写   open  read  write  close    for迭代  readline
+2. 文件读写细节   with   缓冲器  文件偏移
+
+作业： 1. 今天的函数熟悉  当日练习
+      2. 编程作业
+         假设有3个文本文件，编写一个程序，将这3个文件合并为
+         一个大文件 union.txt
+

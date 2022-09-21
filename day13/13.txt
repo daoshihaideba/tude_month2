@@ -1,0 +1,69 @@
+前情回顾
+
+1. 数据基础操作
+   select col,.. from [tb] where ......
+   算术  比较   逻辑
+
+   update [tb] set col=val,... where ...
+   delete from [tb] where ....
+
+2. alter
+   alter table [tb]  add/drop/modify/change ...
+
+3. 时间数据类型
+   date  time  datetime
+
+   now()  date()  datediff()
+
+4. 高级查询
+   模糊查询 ：　like
+   重命名　：　　as
+   排序　：　order by  ... desc
+   分页　：　 limit ... offset
+   联合查询　：　union
+   子查询 ： (select...)
+
+补充 ： 子查询放在写操作语句中
+update class set score=score+3
+where name in (select name from hobby);
+
+错误示例 ： 子查询的操作表与写操作是同一张表是不允许的
+update class set score=score+1
+where score < (select score from class where name="Abby");
+
+解决小技巧
+update class set score=score+1
+where score<(select score from (select * from class) as cls
+where name="Abby");
+
+聚合练习 books
+1. 统计每位作家出版图书的平均价格
+2. 统计每个出版社出版图书数量
+3. 统计同一时间出版图书的最高价格和最低价格
+4. 筛选出那些出版过超过50元图书的出版社，
+并按照其出版图书的平均价格降序排序
+
+
+
+把具有关系的数据放在一张表 -》 数据冗余
+分表存放 -》 表之间的数据关系表达
+在从表增加关系字段 -》 关系字段值随意填写可能不合理
+使用外键加以约束限制
+
+
+表关系设计练习 exercise库：
+根据所学 用户朋友圈表内容表，使其合理，假设现有如下内容需要存储：
+姓名  密码  电话  图片 内容  地点 时间 点赞  评论
+能够表达出 朋友圈谁发的都有谁点赞评论了
+
+
+今日内容：
+1. 聚合
+2. 索引
+3. 外键约束
+4. 表关系
+
+作业： 1. 今天的语句
+      2. 将books表拆分为三张表（图书   作家   出版社）,
+      自行设计表之间的关系，然后写出创建语句
+
